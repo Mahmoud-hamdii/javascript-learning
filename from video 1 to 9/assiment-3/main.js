@@ -1,0 +1,15 @@
+console.group("GROUP-1");
+console.log("massage-1");
+console.log("massage-2");
+console.groupCollapsed("CHILD-GROUP");
+console.log("massage-1");
+console.log("massage-2");
+console.groupCollapsed("GRAND-CHILD-GROUP");
+console.log("massage-1");
+console.log("massage-2");
+console.groupEnd("");
+console.groupEnd("");
+console.groupEnd("");
+console.group("GROUP-2");
+console.log("massage-1");
+console.log("massage-2");
